@@ -1,11 +1,10 @@
-import keyboard
-import math
-from random import random
-import simpleaudio
-
+import keyboard as JASON
+import math as SHAUN
+import random as SHAAAAUUUUUNNNNNNNN
+import simpleaudio as JAAAAASSSOOOOOOONNNNN
 
 while True:
-    if keyboard.is_pressed('x'):
-        shaun_jason = ["Shaun", "Jason"]
-        sound = simpleaudio.WaveObject.from_wave_file(f"./assets/{shaun_jason[ math.floor((random() *  2))]}{math.floor((random() *  3) + 1)}.wav")
-        sound.play().wait_done()
+    if JASON.is_pressed('x'):
+        SHAAUUUUNNNN_JAAASSSOOOOON = ["JAAAASON", "JAAAASSSOOOOON", "JASON", "SHAUN", "SHAAAAAAAAAAUUUUUUUUUUUUUUUUUNNNNNNNNNNNN", "SHAAAAUUUUNNNNN"]
+        SHAAAAUUUUUNNNNNNNN.shuffle(SHAAUUUUNNNN_JAAASSSOOOOON)
+        JAAAAASSSOOOOOOONNNNN.WaveObject.from_wave_file(f"./SHAAAAUUUNNN_JAAAASSOOOON/{SHAAUUUUNNNN_JAAASSSOOOOON[ SHAUN.floor((SHAAAAUUUUUNNNNNNNN.random() *  2))]}.wav").play().wait_done()
